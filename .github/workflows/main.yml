@@ -20,7 +20,8 @@ jobs:
           username: ${{ secrets.SERVER_USERNAME }}
           password: ${{ secrets.SERVER_PASSWORD }}
           script: |
-            cd /root/
-            rm -rf php_cicd
-            git clone https://github.com/Heinth/php_cicd.git 
+            cd /root/php_cicd
+            git pull origin main
+            
+            
             
