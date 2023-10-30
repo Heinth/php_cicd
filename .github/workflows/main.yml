@@ -21,6 +21,6 @@ jobs:
           password: ${{ secrets.SERVER_PASSWORD }}
           script: |
             cd /root/
-            rm -rf phpguy-docker
+            rm -rf php_cicd
             git clone https://github.com/Heinth/php_cicd.git 
             
